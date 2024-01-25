@@ -1,0 +1,22 @@
+﻿@{Layout = null;
+    Web_Topic1.Models.SubjectModel subject = (Web_Topic1.Models.SubjectModel)ViewBag.Subject;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewBagObj</title>
+</head>
+<body>
+    <div>
+        @if (ViewBag.Id == "")
+        {
+                <p> KHông có môn học</p>
+        }
+        else
+        {
+            <p> @subject.Id, @subject.Name, @subject.Num </p>
+        }
+    </div>
+</body>
+</html>

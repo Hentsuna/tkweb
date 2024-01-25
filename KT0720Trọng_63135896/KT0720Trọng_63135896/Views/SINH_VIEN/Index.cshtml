@@ -1,0 +1,86 @@
+﻿@model IEnumerable<KT0720Trọng_63135896.Models.SINH_VIEN>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+    @Html.ActionLink("Giới thiêu","GioiThieu_63135896") |
+    @Html.ActionLink("Thêm mới", "Create") |
+    @Html.ActionLink("Danh sách","Index") |
+    @Html.ActionLink("Tìm kiếm","TimKiem_63135896") 
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ma_sv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ho_sv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ten_sv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ngay_sinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gioi_tinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Anh_sv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dia_chi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LOP.Ten_lop)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(model => item.Ma_sv)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ho_sv)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ten_sv)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ngay_sinh)
+        </td>
+        <td>
+            @{
+                string chuyengt;
+                if (item.Gioi_tinh == true)
+                {
+                    chuyengt = "Nam";
+                }
+                else
+                {
+                    chuyengt = "Nữ";
+                }
+            }
+            @chuyengt
+        </td>
+        <td>
+            <img src="~/Image/@item.Anh_sv" alt="Image" class="img-fluid" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dia_chi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LOP.Ten_lop)
+        </td>
+        <td>
+            @Html.ActionLink("Xem chi tiết", "Details", new { id=item.Ma_sv }) 
+        </td>
+    </tr>
+}
+
+</table>

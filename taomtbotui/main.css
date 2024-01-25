@@ -1,0 +1,42 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+.result{
+    display: flex;
+    justify-content: stretch;
+    height: 50px;
+}
+.kq{
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+}
+.buttons{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.button{
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 30px;
+}

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<ThiGKTrong_63135896.Models.DIEMDULICH>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Giới thiệu", "GioiThieu_63135896") |
+        @Html.ActionLink("Thêm mới", "ThemMoi") |
+        @Html.ActionLink("Danh sách", "DanhSach") |
+        @Html.ActionLink("Tìm kiếm", "DanhSach")
+    </p>
+    <h2>DANH SÁCH SINH VIÊN</h2>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Madiemdl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tendiemdl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngaycapnhat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anhdaidien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TINH_THANHPHO.Tentinh)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Madiemdl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tendiemdl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mota)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Anhdaidien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TINH_THANHPHO.Tentinh)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Madiemdl }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Madiemdl }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Madiemdl })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

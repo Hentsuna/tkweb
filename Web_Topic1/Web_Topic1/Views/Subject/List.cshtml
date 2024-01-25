@@ -1,0 +1,39 @@
+﻿@model Web_Topic1.Models.TwoList
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Danh sách học phần</h2>
+        <table>
+            <tr><th>Mã số </th><th>Tên học phần </th><th>Số tín chỉ</th></tr>
+            @foreach (var i in Model.ls)
+            {
+                <tr><th>@i.Id </th> <th>@i.Name </th> <th>@i.Num</th></tr>
+            }
+        </table><br />
+        <h2>Danh sách học phần có số tín chỉ là 3</h2>
+        <table>
+            <tr><th>Mã số </th><th>Tên học phần </th><th>Số tín chỉ</th></tr>
+            @foreach (var i in Model.ls3)
+            {
+                <tr><th>@i.Id </th> <th>@i.Name </th> <th>@i.Num</th></tr>
+            }
+        </table><br />
+    </div>
+</body>
+</html>

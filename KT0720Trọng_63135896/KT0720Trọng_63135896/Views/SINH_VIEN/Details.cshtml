@@ -1,0 +1,86 @@
+﻿@model KT0720Trọng_63135896.Models.SINH_VIEN
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SINH_VIEN</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ho_sv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ho_sv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ten_sv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ten_sv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngay_sinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngay_sinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gioi_tinh)
+        </dt>
+
+        <dd>
+            @{
+                string chuyengt;
+                if (Model.Gioi_tinh == true)
+                {
+                    chuyengt = "Nam";
+                }
+                else
+                {
+                    chuyengt = "Nữ";
+                }
+            }
+            @chuyengt
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anh_sv)
+        </dt>
+
+        <dd>
+            <img src="~/Image/@Model.Anh_sv" alt="Image" class="img-fluid" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dia_chi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dia_chi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LOP.Ten_lop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LOP.Ten_lop)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Ma_sv }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

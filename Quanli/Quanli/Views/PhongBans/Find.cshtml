@@ -1,0 +1,48 @@
+﻿
+@model IEnumerable<Quanli.Models.PhongBan>
+
+@{
+    ViewBag.Title = "Find";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+Nhập tên sản phẩm cần tìm
+@using (Html.BeginForm())
+{
+    <input type="text" name="filter" />
+    <input type="submit" value="Tìm kiếm" />
+
+    <h2>Result</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.maphong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tenphong)
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.maphong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tenphong)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.maphong }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.maphong }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.maphong })
+                </td>
+            </tr>
+        }
+    </table>
+    <lable>CountofPhongBan:</lable>
+        <input type="text" name="filter" value=@ViewBag.Count />
+    }

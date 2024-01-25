@@ -1,0 +1,79 @@
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Đàm Viết Trọng.dll.config
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Đàm Viết Trọng.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Đàm Viết Trọng.pdb
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\csc.exe
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\csc.exe.config
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\csc.rsp
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\csi.exe
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\csi.exe.config
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\csi.rsp
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.Managed.Core.targets
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.AppContext.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Collections.Immutable.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Console.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Globalization.Calendars.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.IO.Compression.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.IO.FileSystem.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Net.Http.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Net.Sockets.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Reflection.Metadata.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.ValueTuple.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Xml.XmlDocument.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Xml.XPath.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\vbc.exe
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\vbc.exe.config
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\vbc.rsp
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\VBCSCompiler.exe
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\roslyn\VBCSCompiler.exe.config
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Antlr3.Runtime.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Microsoft.Web.Infrastructure.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Newtonsoft.Json.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Helpers.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Mvc.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Optimization.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Razor.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.WebPages.Deployment.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.WebPages.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.WebPages.Razor.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\WebGrease.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Helpers.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Mvc.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Optimization.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.Razor.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.WebPages.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.WebPages.Deployment.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\System.Web.WebPages.Razor.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Newtonsoft.Json.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Antlr3.Runtime.pdb
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\obj\Debug\Đàm Viết Trọng.csproj.AssemblyReference.cache
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\obj\Debug\Đàm Viết Trọng.csproj.CoreCompileInputs.cache
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\obj\Debug\Đàm Viết Trọng.csproj.CopyComplete
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\obj\Debug\Đàm Viết Trọng.dll
+D:\tkweb\Đàm Viết Trọng\Đàm Viết Trọng\obj\Debug\Đàm Viết Trọng.pdb

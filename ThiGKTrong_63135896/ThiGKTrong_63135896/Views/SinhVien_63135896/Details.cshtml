@@ -1,0 +1,66 @@
+﻿@model ThiGKTrong_63135896.Models.DIEMDULICH
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>DIEMDULICH</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Tendiemdl)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Tendiemdl)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Ngaycapnhat)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Ngaycapnhat)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Mota)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Mota)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Anhdaidien)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Anhdaidien)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TINH_THANHPHO.Tentinh)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TINH_THANHPHO.Tentinh)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Madiemdl }) |
+        @Html.ActionLink("Back to List", "DanhSach")
+    </p>
+</body>
+</html>

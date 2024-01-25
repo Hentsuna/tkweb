@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "ListRenderBody";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+    Web_Topic1.Models.Subject subject = (Web_Topic1.Models.Subject)ViewBag.Subject;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewBagObj</title>
+</head>
+<body>
+    <div>
+        <p> @subject.Id, @subject.Name, @subject.Num </p>
+    </div>
+</body>
+</html>

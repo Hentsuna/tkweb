@@ -1,0 +1,78 @@
+*
+{
+    padding: 0;
+    margin: 0 ;
+
+}
+
+.navbar-primary
+{
+    font-size:25px;
+    padding: 0 160px;
+}
+
+
+.container
+{
+    margin-top: 30px;
+}
+.nav-link
+{
+    color: rgba(51, 39, 39, 0.651);
+}
+#collapsibleNavId
+{
+    padding: 0 250px;
+}
+
+.nen
+{
+    padding-bottom: 50px;
+}
+.container-text
+{
+    padding-top: 90px;
+}
+
+.Q
+{
+ display: inline;
+ font-size: 50px;
+
+}
+.Get-started
+{
+    height: 50px;
+width: 200px;
+}
+
+.container-1
+{
+    background: rgba(0, 255, 255, 0.127);
+}
+.nut-container-1
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: rgba(159, 205, 206, 0.629);
+    color: rgba(69, 116, 118, 0.786);
+}
+.row
+{
+    margin-top: 70px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.card
+{
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(159, 205, 206, 0.629);
+}
+.anh-nen
+{
+    border: 8px solid rgb(234, 230, 230);
+    border-radius: 5px;
+
+}

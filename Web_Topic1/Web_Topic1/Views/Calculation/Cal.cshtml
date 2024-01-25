@@ -1,0 +1,58 @@
+﻿@{ Layout = null;
+    var Result = "";
+    if (IsPost)
+    {
+        float a = float.Parse(Request["a"]);
+        float b = Request["b"].AsFloat();
+        if (a == 0 && b != 0)
+        {
+            Result = "Vô nghiệm";
+        }
+        else if (a == 0 && b == 0) { Result = "Vô số nghiệm"; }
+        else { Result = (-b / a).ToString(); }
+        
+    }
+}
+@model Web_Topic1.Models.CalModels
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Giải phương trình bậc 1 HtmlHelper</title>
+</head>
+<body>
+    <!--  <form name="f1" action="/Calculation/Cal" method="post">
+          <div class="container">
+              <div class="form">
+                  <h2>THỰC HIỆN PHÉP TOÁN CƠ BẢN</h2>
+                  Nhập a: <input type="text" name="a" /> <br />
+                  Nhập b: <input type="text" name="b" /> <br />
+                  <input type="submit" value="Tính toán" /> <br />
+                  <p>Kết quả: @@Result</p>
+              </div>
+          </div>
+      </form> -->
+    <!-- @@using (Html.BeginForm("Cal", "Calculation", FormMethod.Post))
+     {
+         <h2>Thực hiện phương trình bậc 1</h2>
+         @@Html.Label("Nhập a: ")
+         @@Html.TextBox("a", "", new { @@class = "form-control" })<br />
+         @@Html.Label("Nhập b: ")
+         @@Html.TextBox("b", "", new { @@class = "form-control" })<br />
+
+
+         <input type="submit" value="Thực hiện" /><br />
+         @@Html.TextBox("Kq", Result, new { @@class = "form-control" })<br />
+
+     }-->
+    @using (Html.BeginForm("Cal", "Calculation", FormMethod.Post))
+    {
+        <h2>Giải phương trình bậc 1</h2>
+        @Html.TextBoxFor(m => m.a) @Html.Label("x + ")
+        @Html.TextBoxFor(m => m.b) @Html.Label("= 0") <br />
+
+        <input type="submit" value="Thực hiện" /><br />
+        @Html.TextBox("Kq", Result, new { @class = "form-control" })
+    }
+</body>
+</html>

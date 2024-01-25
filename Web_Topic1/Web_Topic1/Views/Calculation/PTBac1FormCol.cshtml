@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PTBac1FormCol</title>
+</head>
+<body>
+    <form action="/Calculation/PTBac1FormCol" method="post">
+        <div class="container">
+            <div class="form">
+                <h2>Giải phương trình bậc 1</h2>
+                Nhập a: <input type="text" name="a" /> <br />
+                Nhập b: <input type="text" name="b" /> <br />
+                <input type="submit" value="Tính toán" /><br />
+                Kết quả: <input type="text" name="kq" value=@ViewBag.KQ />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

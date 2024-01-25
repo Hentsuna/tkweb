@@ -1,0 +1,20 @@
+#Title{
+    font-weight: bold;
+    font-size: 2em;
+}
+.Button{
+    line-height: 2em;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+.btn{
+    border: 1px solid black;
+}

@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+    List<Web_Topic1.Models.SubjectModel> ls = (List<Web_Topic1.Models.SubjectModel>)ViewBag.List;
+    List<Web_Topic1.Models.SubjectModel> ls3 = (List<Web_Topic1.Models.SubjectModel>)ViewBag.List3;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewBagList</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Danh sách học phần</h2>
+        <table>
+            <tr><th>Mã số </th><th>Tên học phần </th><th>Số tín chỉ</th></tr>
+            @foreach (var i in ls)
+            {
+                <tr><th>@i.Id </th> <th>@i.Name </th> <th>@i.Num</th></tr>
+            }
+        </table><br />
+        <h2>Danh sách học phần có số tín chỉ là 3</h2>
+        <table>
+            <tr><th>Mã số </th><th>Tên học phần </th><th>Số tín chỉ</th></tr>
+            @foreach (var i in ls3)
+            {
+                <tr><th>@i.Id </th> <th>@i.Name </th> <th>@i.Num</th></tr>
+            }
+        </table><br />
+    </div>
+</body>
+</html>
